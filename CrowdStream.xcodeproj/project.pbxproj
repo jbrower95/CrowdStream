@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0E44CDD18E918E100D4BC06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E44CDC18E918E100D4BC06 /* Foundation.framework */; };
+		D0E44CDF18E918E100D4BC06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E44CDE18E918E100D4BC06 /* CoreGraphics.framework */; };
+		D0E44CE118E918E100D4BC06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E44CE018E918E100D4BC06 /* UIKit.framework */; };
+		D0E44CE718E918E100D4BC06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0E44CE518E918E100D4BC06 /* InfoPlist.strings */; };
+		D0E44CE918E918E100D4BC06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E44CE818E918E100D4BC06 /* main.m */; };
+		D0E44CED18E918E100D4BC06 /* com_justinapps_crowdstreamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E44CEC18E918E100D4BC06 /* com_justinapps_crowdstreamAppDelegate.m */; };
+		D0E44CF018E918E100D4BC06 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E44CEE18E918E100D4BC06 /* Main_iPhone.storyboard */; };
+		D0E44CF318E918E100D4BC06 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E44CF118E918E100D4BC06 /* Main_iPad.storyboard */; };
+		D0E44CF618E918E100D4BC06 /* com_justinapps_crowdstreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E44CF518E918E100D4BC06 /* com_justinapps_crowdstreamViewController.m */; };
+		D0E44CF818E918E100D4BC06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E44CF718E918E100D4BC06 /* Images.xcassets */; };
+		D0E44CFF18E918E100D4BC06 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E44CFE18E918E100D4BC06 /* XCTest.framework */; };
+		D0E44D0018E918E100D4BC06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E44CDC18E918E100D4BC06 /* Foundation.framework */; };
+		D0E44D0118E918E100D4BC06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E44CE018E918E100D4BC06 /* UIKit.framework */; };
+		D0E44D0918E918E100D4BC06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0E44D0718E918E100D4BC06 /* InfoPlist.strings */; };
+		D0E44D0B18E918E100D4BC06 /* CrowdStreamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E44D0A18E918E100D4BC06 /* CrowdStreamTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0E44D0218E918E100D4BC06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E44CD118E918E000D4BC06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E44CD818E918E100D4BC06;
+			remoteInfo = CrowdStream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0E44CD918E918E100D4BC06 /* CrowdStream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrowdStream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E44CDC18E918E100D4BC06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0E44CDE18E918E100D4BC06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0E44CE018E918E100D4BC06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0E44CE418E918E100D4BC06 /* CrowdStream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrowdStream-Info.plist"; sourceTree = "<group>"; };
+		D0E44CE618E918E100D4BC06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0E44CE818E918E100D4BC06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0E44CEA18E918E100D4BC06 /* CrowdStream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrowdStream-Prefix.pch"; sourceTree = "<group>"; };
+		D0E44CEB18E918E100D4BC06 /* com_justinapps_crowdstreamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_justinapps_crowdstreamAppDelegate.h; sourceTree = "<group>"; };
+		D0E44CEC18E918E100D4BC06 /* com_justinapps_crowdstreamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_justinapps_crowdstreamAppDelegate.m; sourceTree = "<group>"; };
+		D0E44CEF18E918E100D4BC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D0E44CF218E918E100D4BC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D0E44CF418E918E100D4BC06 /* com_justinapps_crowdstreamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_justinapps_crowdstreamViewController.h; sourceTree = "<group>"; };
+		D0E44CF518E918E100D4BC06 /* com_justinapps_crowdstreamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_justinapps_crowdstreamViewController.m; sourceTree = "<group>"; };
+		D0E44CF718E918E100D4BC06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0E44CFD18E918E100D4BC06 /* CrowdStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrowdStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E44CFE18E918E100D4BC06 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D0E44D0618E918E100D4BC06 /* CrowdStreamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrowdStreamTests-Info.plist"; sourceTree = "<group>"; };
+		D0E44D0818E918E100D4BC06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0E44D0A18E918E100D4BC06 /* CrowdStreamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrowdStreamTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E44CD618E918E100D4BC06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E44CDF18E918E100D4BC06 /* CoreGraphics.framework in Frameworks */,
+				D0E44CE118E918E100D4BC06 /* UIKit.framework in Frameworks */,
+				D0E44CDD18E918E100D4BC06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E44CFA18E918E100D4BC06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E44CFF18E918E100D4BC06 /* XCTest.framework in Frameworks */,
+				D0E44D0118E918E100D4BC06 /* UIKit.framework in Frameworks */,
+				D0E44D0018E918E100D4BC06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0E44CD018E918E000D4BC06 = {
+			isa = PBXGroup;
+			children = (
+				D0E44CE218E918E100D4BC06 /* CrowdStream */,
+				D0E44D0418E918E100D4BC06 /* CrowdStreamTests */,
+				D0E44CDB18E918E100D4BC06 /* Frameworks */,
+				D0E44CDA18E918E100D4BC06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E44CDA18E918E100D4BC06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E44CD918E918E100D4BC06 /* CrowdStream.app */,
+				D0E44CFD18E918E100D4BC06 /* CrowdStreamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E44CDB18E918E100D4BC06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0E44CDC18E918E100D4BC06 /* Foundation.framework */,
+				D0E44CDE18E918E100D4BC06 /* CoreGraphics.framework */,
+				D0E44CE018E918E100D4BC06 /* UIKit.framework */,
+				D0E44CFE18E918E100D4BC06 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0E44CE218E918E100D4BC06 /* CrowdStream */ = {
+			isa = PBXGroup;
+			children = (
+				D0E44CEB18E918E100D4BC06 /* com_justinapps_crowdstreamAppDelegate.h */,
+				D0E44CEC18E918E100D4BC06 /* com_justinapps_crowdstreamAppDelegate.m */,
+				D0E44CEE18E918E100D4BC06 /* Main_iPhone.storyboard */,
+				D0E44CF118E918E100D4BC06 /* Main_iPad.storyboard */,
+				D0E44CF418E918E100D4BC06 /* com_justinapps_crowdstreamViewController.h */,
+				D0E44CF518E918E100D4BC06 /* com_justinapps_crowdstreamViewController.m */,
+				D0E44CF718E918E100D4BC06 /* Images.xcassets */,
+				D0E44CE318E918E100D4BC06 /* Supporting Files */,
+			);
+			path = CrowdStream;
+			sourceTree = "<group>";
+		};
+		D0E44CE318E918E100D4BC06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E44CE418E918E100D4BC06 /* CrowdStream-Info.plist */,
+				D0E44CE518E918E100D4BC06 /* InfoPlist.strings */,
+				D0E44CE818E918E100D4BC06 /* main.m */,
+				D0E44CEA18E918E100D4BC06 /* CrowdStream-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0E44D0418E918E100D4BC06 /* CrowdStreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0E44D0A18E918E100D4BC06 /* CrowdStreamTests.m */,
+				D0E44D0518E918E100D4BC06 /* Supporting Files */,
+			);
+			path = CrowdStreamTests;
+			sourceTree = "<group>";
+		};
+		D0E44D0518E918E100D4BC06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0E44D0618E918E100D4BC06 /* CrowdStreamTests-Info.plist */,
+				D0E44D0718E918E100D4BC06 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E44CD818E918E100D4BC06 /* CrowdStream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E44D0E18E918E100D4BC06 /* Build configuration list for PBXNativeTarget "CrowdStream" */;
+			buildPhases = (
+				D0E44CD518E918E100D4BC06 /* Sources */,
+				D0E44CD618E918E100D4BC06 /* Frameworks */,
+				D0E44CD718E918E100D4BC06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrowdStream;
+			productName = CrowdStream;
+			productReference = D0E44CD918E918E100D4BC06 /* CrowdStream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0E44CFC18E918E100D4BC06 /* CrowdStreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E44D1118E918E100D4BC06 /* Build configuration list for PBXNativeTarget "CrowdStreamTests" */;
+			buildPhases = (
+				D0E44CF918E918E100D4BC06 /* Sources */,
+				D0E44CFA18E918E100D4BC06 /* Frameworks */,
+				D0E44CFB18E918E100D4BC06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E44D0318E918E100D4BC06 /* PBXTargetDependency */,
+			);
+			name = CrowdStreamTests;
+			productName = CrowdStreamTests;
+			productReference = D0E44CFD18E918E100D4BC06 /* CrowdStreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E44CD118E918E000D4BC06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = com.justinapps.crowdstream;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Justin Browah's Appz";
+				TargetAttributes = {
+					D0E44CFC18E918E100D4BC06 = {
+						TestTargetID = D0E44CD818E918E100D4BC06;
+					};
+				};
+			};
+			buildConfigurationList = D0E44CD418E918E000D4BC06 /* Build configuration list for PBXProject "CrowdStream" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0E44CD018E918E000D4BC06;
+			productRefGroup = D0E44CDA18E918E100D4BC06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E44CD818E918E100D4BC06 /* CrowdStream */,
+				D0E44CFC18E918E100D4BC06 /* CrowdStreamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E44CD718E918E100D4BC06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E44CF318E918E100D4BC06 /* Main_iPad.storyboard in Resources */,
+				D0E44CF818E918E100D4BC06 /* Images.xcassets in Resources */,
+				D0E44CF018E918E100D4BC06 /* Main_iPhone.storyboard in Resources */,
+				D0E44CE718E918E100D4BC06 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E44CFB18E918E100D4BC06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E44D0918E918E100D4BC06 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E44CD518E918E100D4BC06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E44CF618E918E100D4BC06 /* com_justinapps_crowdstreamViewController.m in Sources */,
+				D0E44CE918E918E100D4BC06 /* main.m in Sources */,
+				D0E44CED18E918E100D4BC06 /* com_justinapps_crowdstreamAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E44CF918E918E100D4BC06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E44D0B18E918E100D4BC06 /* CrowdStreamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0E44D0318E918E100D4BC06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E44CD818E918E100D4BC06 /* CrowdStream */;
+			targetProxy = D0E44D0218E918E100D4BC06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0E44CE518E918E100D4BC06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E44CE618E918E100D4BC06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0E44CEE18E918E100D4BC06 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E44CEF18E918E100D4BC06 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D0E44CF118E918E100D4BC06 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E44CF218E918E100D4BC06 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D0E44D0718E918E100D4BC06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0E44D0818E918E100D4BC06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0E44D0C18E918E100D4BC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0E44D0D18E918E100D4BC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0E44D0F18E918E100D4BC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrowdStream/CrowdStream-Prefix.pch";
+				INFOPLIST_FILE = "CrowdStream/CrowdStream-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0E44D1018E918E100D4BC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrowdStream/CrowdStream-Prefix.pch";
+				INFOPLIST_FILE = "CrowdStream/CrowdStream-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0E44D1218E918E100D4BC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrowdStream.app/CrowdStream";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrowdStream/CrowdStream-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CrowdStreamTests/CrowdStreamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D0E44D1318E918E100D4BC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrowdStream.app/CrowdStream";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrowdStream/CrowdStream-Prefix.pch";
+				INFOPLIST_FILE = "CrowdStreamTests/CrowdStreamTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E44CD418E918E000D4BC06 /* Build configuration list for PBXProject "CrowdStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E44D0C18E918E100D4BC06 /* Debug */,
+				D0E44D0D18E918E100D4BC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E44D0E18E918E100D4BC06 /* Build configuration list for PBXNativeTarget "CrowdStream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E44D0F18E918E100D4BC06 /* Debug */,
+				D0E44D1018E918E100D4BC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0E44D1118E918E100D4BC06 /* Build configuration list for PBXNativeTarget "CrowdStreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E44D1218E918E100D4BC06 /* Debug */,
+				D0E44D1318E918E100D4BC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E44CD118E918E000D4BC06 /* Project object */;
+}
