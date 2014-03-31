@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface com_justinapps_crowdstreamViewController : UIViewController
+@interface CrowdStreamViewController : UIViewController
 
 @end

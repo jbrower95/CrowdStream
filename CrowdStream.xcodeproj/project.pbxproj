@@ -12,10 +12,10 @@
 		D0E44CE118E918E100D4BC06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E44CE018E918E100D4BC06 /* UIKit.framework */; };
 		D0E44CE718E918E100D4BC06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0E44CE518E918E100D4BC06 /* InfoPlist.strings */; };
 		D0E44CE918E918E100D4BC06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E44CE818E918E100D4BC06 /* main.m */; };
-		D0E44CED18E918E100D4BC06 /* com_justinapps_crowdstreamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E44CEC18E918E100D4BC06 /* com_justinapps_crowdstreamAppDelegate.m */; };
+		D0E44CED18E918E100D4BC06 /* CrowdStreamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E44CEC18E918E100D4BC06 /* CrowdStreamAppDelegate.m */; };
 		D0E44CF018E918E100D4BC06 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E44CEE18E918E100D4BC06 /* Main_iPhone.storyboard */; };
 		D0E44CF318E918E100D4BC06 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E44CF118E918E100D4BC06 /* Main_iPad.storyboard */; };
-		D0E44CF618E918E100D4BC06 /* com_justinapps_crowdstreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E44CF518E918E100D4BC06 /* com_justinapps_crowdstreamViewController.m */; };
+		D0E44CF618E918E100D4BC06 /* CrowdStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E44CF518E918E100D4BC06 /* CrowdStreamViewController.m */; };
 		D0E44CF818E918E100D4BC06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E44CF718E918E100D4BC06 /* Images.xcassets */; };
 		D0E44CFF18E918E100D4BC06 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E44CFE18E918E100D4BC06 /* XCTest.framework */; };
 		D0E44D0018E918E100D4BC06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0E44CDC18E918E100D4BC06 /* Foundation.framework */; };
@@ -43,12 +43,12 @@
 		D0E44CE618E918E100D4BC06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0E44CE818E918E100D4BC06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0E44CEA18E918E100D4BC06 /* CrowdStream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrowdStream-Prefix.pch"; sourceTree = "<group>"; };
-		D0E44CEB18E918E100D4BC06 /* com_justinapps_crowdstreamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_justinapps_crowdstreamAppDelegate.h; sourceTree = "<group>"; };
-		D0E44CEC18E918E100D4BC06 /* com_justinapps_crowdstreamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_justinapps_crowdstreamAppDelegate.m; sourceTree = "<group>"; };
+		D0E44CEB18E918E100D4BC06 /* CrowdStreamAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrowdStreamAppDelegate.h; sourceTree = "<group>"; };
+		D0E44CEC18E918E100D4BC06 /* CrowdStreamAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrowdStreamAppDelegate.m; sourceTree = "<group>"; };
 		D0E44CEF18E918E100D4BC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		D0E44CF218E918E100D4BC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		D0E44CF418E918E100D4BC06 /* com_justinapps_crowdstreamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_justinapps_crowdstreamViewController.h; sourceTree = "<group>"; };
-		D0E44CF518E918E100D4BC06 /* com_justinapps_crowdstreamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_justinapps_crowdstreamViewController.m; sourceTree = "<group>"; };
+		D0E44CF418E918E100D4BC06 /* CrowdStreamViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrowdStreamViewController.h; sourceTree = "<group>"; };
+		D0E44CF518E918E100D4BC06 /* CrowdStreamViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrowdStreamViewController.m; sourceTree = "<group>"; };
 		D0E44CF718E918E100D4BC06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0E44CFD18E918E100D4BC06 /* CrowdStreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrowdStreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E44CFE18E918E100D4BC06 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -114,12 +114,12 @@
 		D0E44CE218E918E100D4BC06 /* CrowdStream */ = {
 			isa = PBXGroup;
 			children = (
-				D0E44CEB18E918E100D4BC06 /* com_justinapps_crowdstreamAppDelegate.h */,
-				D0E44CEC18E918E100D4BC06 /* com_justinapps_crowdstreamAppDelegate.m */,
+				D0E44CEB18E918E100D4BC06 /* CrowdStreamAppDelegate.h */,
+				D0E44CEC18E918E100D4BC06 /* CrowdStreamAppDelegate.m */,
 				D0E44CEE18E918E100D4BC06 /* Main_iPhone.storyboard */,
 				D0E44CF118E918E100D4BC06 /* Main_iPad.storyboard */,
-				D0E44CF418E918E100D4BC06 /* com_justinapps_crowdstreamViewController.h */,
-				D0E44CF518E918E100D4BC06 /* com_justinapps_crowdstreamViewController.m */,
+				D0E44CF418E918E100D4BC06 /* CrowdStreamViewController.h */,
+				D0E44CF518E918E100D4BC06 /* CrowdStreamViewController.m */,
 				D0E44CF718E918E100D4BC06 /* Images.xcassets */,
 				D0E44CE318E918E100D4BC06 /* Supporting Files */,
 			);
@@ -254,9 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0E44CF618E918E100D4BC06 /* com_justinapps_crowdstreamViewController.m in Sources */,
+				D0E44CF618E918E100D4BC06 /* CrowdStreamViewController.m in Sources */,
 				D0E44CE918E918E100D4BC06 /* main.m in Sources */,
-				D0E44CED18E918E100D4BC06 /* com_justinapps_crowdstreamAppDelegate.m in Sources */,
+				D0E44CED18E918E100D4BC06 /* CrowdStreamAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

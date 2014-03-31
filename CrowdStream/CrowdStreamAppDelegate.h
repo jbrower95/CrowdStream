@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface com_justinapps_crowdstreamAppDelegate : UIResponder <UIApplicationDelegate>
+@interface CrowdStreamAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

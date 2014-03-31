@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Justin Browah's Appz. All rights reserved.
 //
 
-#import "com_justinapps_crowdstreamViewController.h"
+#import "CrowdStreamViewController.h"
 
-@interface com_justinapps_crowdstreamViewController ()
+@interface CrowdStreamViewController ()
 
 @end
 
-@implementation com_justinapps_crowdstreamViewController
+@implementation CrowdStreamViewController
 
 - (void)viewDidLoad
 {

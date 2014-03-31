@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "com_justinapps_crowdstreamAppDelegate.h"
+#import "CrowdStreamAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([com_justinapps_crowdstreamAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([CrowdStreamAppDelegate class]));
     }
 }

@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Justin Browah's Appz. All rights reserved.
 //
 
-#import "com_justinapps_crowdstreamAppDelegate.h"
+#import "CrowdStreamAppDelegate.h"
 
-@implementation com_justinapps_crowdstreamAppDelegate
+@implementation CrowdStreamAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
